@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace GuessingGame
+Main();
+
+void Main() 
+
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+Console.WriteLine("Come guess the secret number, baby!");
+Console.WriteLine("----------------------------------");
+Console.WriteLine();
+
+Console.Write("What is your first guess?");
+string answer = Console.ReadLine();
+Console.Write(answer);
 }
